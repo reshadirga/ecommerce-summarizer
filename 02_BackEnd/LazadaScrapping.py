@@ -35,8 +35,8 @@ import requests
 def get_query(queryId):
     url = "https://parseapi.back4app.com/classes/Queries/"+queryId
     headers = {
-        "X-Parse-Application-Id": "RuZmICQMeGu5bWLko09YyzJNQ481ILUatFrNC2HI",
-        "X-Parse-Rest-Api-Key": "7It4g7Xdivpoe8mU6yaNZtC6yNw3cJ8WNCTT0rxU"
+        "X-Parse-Application-Id": "XXXXX",
+        "X-Parse-Rest-Api-Key": "XXXXX"
       }
     r = requests.get(url, headers=headers)
     return r.json()
@@ -77,19 +77,19 @@ def get_response(url, response_type):
         
         cookies = {
             "__wpkreporterwid_": "3a462388-e175-4795-bc99-1703c146274a",
-            "_bl_uid": "q6l1L73Rzeeft0fC9k8wjbsgXqyI",
+            "_bl_uid": "XXXXX",
             "_tb_token_": "57533e367517e",
-            "cna": "1LWmG4Oo/hICAZ61R1lONIm9",
-            "hng": "ID|id-ID|IDR|360",
-            "hng.sig": "dJwrVwSueShOlZz95EBCvlH9FLAVtzGZ3msUnc25HIQ",
-            "isg": "BJqaNSQyrYoHSyEmE1HiPYaI6Ea8yx6lOa7utaQTRi34FzpRjFtutWBh53uL3JY9",
-            "l": "eBEgqrmmTEDTD2DvmOfahurza77OSIOYYuPzaNbMiOCPO95p5SjFW6kHBPT9C36NhsOvR3J-P9DHBeYBcIDjLbHEAjH5SNDmn",
+            "cna": "1LWmG4Oo/XXXXX",
+            "hng": "XXXXX",
+            "hng.sig": "XXXXX",
+            "isg": "XXXXX",
+            "l": "XXXXX-P9DHBeYBcIDjLbHEAjH5SNDmn",
             "lzd_cid": "3361bcaa-7fea-461a-9cf9-e0a0ad2c3423",
-            "lzd_sid": "12f9e528f9823b7000c26329401b3ccf",
+            "lzd_sid": "XXXXX",
             "t_fv": "1663027155350",
             "t_sid": "CCZWNZ0ua1L2CfxDStBTm6VvnoHxDiZd",
             "t_uid": "3361bcaa-7fea-461a-9cf9-e0a0ad2c3423",
-            "tfstk": "cPc1BRMBimhEhK5VkVTeboCQQLPRZkC_8FZn5H7RhvxduugCiV1zVJzIoMeTty1..",
+            "tfstk": "XXXXX..",
             "utm_channel": "NA",
             "x5sec": "7b22617365727665722d6c617a6164613b32223a223637333039396131643932666538323033346630666636623434336237616363434e65502f356747454e6e703137533738634b67614443633463657941304144227d",
             "xlly_s": "1"
@@ -330,8 +330,8 @@ def lazada_scrap(queryId):
     connection.request('POST', '/classes/ScrapResMin', json.dumps(
             json_data
          ), {
-            'X-Parse-Application-Id': 'RuZmICQMeGu5bWLko09YyzJNQ481ILUatFrNC2HI',
-            'X-Parse-REST-API-Key': '7It4g7Xdivpoe8mU6yaNZtC6yNw3cJ8WNCTT0rxU',
+            'X-Parse-Application-Id': 'XXXXX',
+            'X-Parse-REST-API-Key': 'XXXXX',
             'Content-Type': 'application/json'
          })
     

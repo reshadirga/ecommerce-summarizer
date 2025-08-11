@@ -1,0 +1,128 @@
+.searchResultHeader {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 1.5rem auto;
+    height: 5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchResultHeader h5 {
+    margin: 0 auto;
+}
+
+.searchResultHeader h5 {
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.resultTableContainer {
+    width: 100vw !important;
+    height: calc(100vh - 8rem) !important;
+    overflow: scroll !important;
+}
+
+.resultTableHeader {
+    position: sticky !important;
+    z-index: 5;
+    top: 0rem;
+    overflow: scroll !important;
+    background-color: #44b6b8;
+    color: whitesmoke;
+    font-size: 1rem;
+}
+
+.resultTableCategory {
+    position: sticky !important;
+    z-index: 2;
+    left: 0rem;
+    overflow: scroll !important;
+    background-color: rgba(245, 245, 245, 0.9);
+    font-size: .85rem;
+    font-weight: 500;
+}
+
+.resultTable th {
+    vertical-align: middle !important;
+}
+
+.downloadButton {
+    position: fixed;
+    top: calc(100vh - 5rem);
+    right: 1rem;
+    z-index: 10;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0 !important;
+    height: 3.5rem;
+    width: 3.5rem;
+    transition: all .4s linear !important;
+}
+
+.downloadIcon {
+    vertical-align: 0 !important;
+}
+
+.downloadButton:hover {
+    width: fit-content;
+    padding: 0 20px !important;
+}
+
+.downloadButton p {
+    display: none;
+    width: 0;
+    font-size: .9rem;
+    font-weight: 500;
+    margin-left: 6px;
+    margin-bottom: 0 !important;
+    transition: all 1s linear !important;
+}
+
+.downloadButton:hover p {
+    display: inline;
+    width: auto;
+}
+
+.newSearchButton {
+    position: fixed;
+    top: calc(100vh - 9rem);
+    right: 1rem;
+    z-index: 10;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0 !important;
+    height: 3.5rem;
+    width: 3.5rem;
+    transition: all .4s linear !important;
+}
+
+.newSearchIcon {
+    vertical-align: 0 !important;
+}
+
+.newSearchButton:hover {
+    width: fit-content;
+    padding: 0 20px !important;
+}
+
+.newSearchButton p {
+    display: none;
+    width: 0;
+    font-size: .9rem;
+    font-weight: 500;
+    margin-left: 6px;
+    margin-bottom: 0 !important;
+    transition: all .4s linear !important;
+}
+
+.newSearchButton:hover p {
+    display: inline;
+    width: auto;
+}

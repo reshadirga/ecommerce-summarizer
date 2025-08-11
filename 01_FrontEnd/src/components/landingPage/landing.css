@@ -1,0 +1,77 @@
+.landingPageContainer {
+    position: absolute;
+    max-width: 600px;
+    top:20vh;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    /* min-height: 100vh; */
+}
+
+.ecmLogoContainer {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+}
+
+.ecmLogo {
+    margin: .7rem;
+}
+
+.ecmLogoWord, h5 {
+    margin-bottom: 0;
+}
+
+.inputContainer {
+    margin: auto;
+    padding: 3rem;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: left;
+}
+
+.formSearchQuery {
+    text-align: left;
+}
+
+.formPriceEstimation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.priceInput {
+    max-width: 200px;
+    margin: .4rem;
+}
+
+.landingPageButtons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.landingPageButton {
+    margin: 0 1rem
+}
+
+.btn-advanceSettings {
+    outline: 2rem;
+    padding: 2rem;
+    background-color: #ffffff !important;
+    border-color: #51cbce !important;
+    color: #51cbce !important;
+}
+
+.btn-advanceSettings:hover {
+    border-color: #44b6b8 !important;
+    color: #44b6b8 !important;
+}
+
+.modal-header button {
+    display: none;
+}

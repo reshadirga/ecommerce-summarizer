@@ -1,0 +1,122 @@
+.card {
+    display: flex !important;
+    flex-direction: row !important;
+    border-radius:10px;
+    /* border: 1px solid black; */
+}
+
+.card:hover {
+    -webkit-transform: translateY(0px) !important;
+    box-shadow: 0 0 11px rgba(33,33,33,.4) !important;
+}
+
+
+.card-body {
+    padding: 10px 15px !important;
+    min-height: 25vh;
+    background-color: whitesmoke;
+    border-radius: 12px !important;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.productImg {
+    object-fit: cover;
+    max-width: 10rem;
+    width: 50%;
+    max-height: auto;
+    border-radius: 12px 0 0 12px !important;
+}
+.cardTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card {
+    margin: 0 !important
+}
+
+.cardContainer td {
+    vertical-align: middle !important;
+}
+
+.cardTitle p {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+    max-width: 15vw;
+    max-height: 5vh;
+    line-height: 1rem;
+}
+
+.accordion-button{
+    font-size: 1rem !important;
+    padding: 0 !important;
+    border: 0;
+    background-color: transparent;
+    margin: auto;
+    margin-top: -.2rem;
+    display: flex;
+    align-content: center;
+    text-align: center;
+}
+
+.accordion-header {
+    margin: 0;
+}
+
+.btn {
+    margin: .5rem !important;
+    align-items: center !important;
+    padding: .3rem 1rem !important
+}
+
+.mb-2 {
+    margin: .5rem !important;
+    font-size: .8rem;
+    font-weight: 400;
+}
+
+.card-title {
+    font-weight: 600;
+    font-size: .9rem;
+}
+
+.accordion-collapse {
+    transition: .3s !important;
+}
+
+.accordion-body p{
+    font-size: .7rem;
+    font-weight: 300;
+    text-align: left;
+    line-height: .8rem;
+}
+
+.buttonText {    
+    color: white !important;
+    font-weight: 300;
+}
+
+.goToPageButton:hover .buttonText {    
+    color: #4a4a4a !important;
+}
+
+.goToPageButton {
+    outline: 2rem;
+    padding: 2rem;
+    border-color: #acacac !important;
+    border-radius: 4rem !important;
+    background-color: #7b7b7b !important;
+}
+
+.goToPageButton:hover {
+    background-color: #ffffff !important;
+    border-color: #626262 !important;
+    color: #4a4a4a !important;
+}

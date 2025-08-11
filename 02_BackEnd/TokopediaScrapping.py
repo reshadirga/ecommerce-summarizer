@@ -41,8 +41,8 @@ import requests
 def get_query(queryId):
     url = "https://parseapi.back4app.com/classes/Queries/"+queryId
     headers = {
-        "X-Parse-Application-Id": "RuZmICQMeGu5bWLko09YyzJNQ481ILUatFrNC2HI",
-        "X-Parse-Rest-Api-Key": "7It4g7Xdivpoe8mU6yaNZtC6yNw3cJ8WNCTT0rxU"
+        "X-Parse-Application-Id": "XXXXX",
+        "X-Parse-Rest-Api-Key": "XXXXX"
       }
     r = requests.get(url, headers=headers)
     return r.json()
@@ -466,8 +466,8 @@ def tokped_scrap(queryId):
     # connection.request('POST', '/classes/ScrapResMin', json.dumps(
     #         json_data
     #      ), {
-    #         'X-Parse-Application-Id': 'RuZmICQMeGu5bWLko09YyzJNQ481ILUatFrNC2HI',
-    #         'X-Parse-REST-API-Key': '7It4g7Xdivpoe8mU6yaNZtC6yNw3cJ8WNCTT0rxU',
+    #         'X-Parse-Application-Id': 'XXXXX',
+    #         'X-Parse-REST-API-Key': 'XXXXX',
     #         'Content-Type': 'application/json'
     #      })
     
